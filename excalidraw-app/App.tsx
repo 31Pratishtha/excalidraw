@@ -192,11 +192,7 @@ if (window.self !== window.top) {
 const shareableLinkConfirmDialog = {
   title: t("overwriteConfirm.modal.shareableLink.title"),
   description: (
-    <Trans
-      i18nKey="overwriteConfirm.modal.shareableLink.description"
-      bold={(text) => <strong>{text}</strong>}
-      br={() => <br />}
-    />
+    
   ),
   actionLabel: t("overwriteConfirm.modal.shareableLink.button"),
   color: "danger",
